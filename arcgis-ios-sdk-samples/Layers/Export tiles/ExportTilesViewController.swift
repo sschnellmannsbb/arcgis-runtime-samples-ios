@@ -177,7 +177,6 @@ class ExportTilesViewController: UIViewController {
             .appendingPathComponent("myTileCache", isDirectory: false)
             .appendingPathExtension(fileFormat.fileExtension)
     }
-    
     // MARK: Actions
     
     @IBAction func exportTilesBarButtonTapped(_ sender: UIBarButtonItem) {

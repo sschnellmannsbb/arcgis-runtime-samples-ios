@@ -14,7 +14,6 @@
 
 import UIKit
 import ArcGIS
-import ArcGISToolkit
 
 class FilterByTimeExtentViewController: UIViewController {
     /// The map view.
@@ -28,13 +27,7 @@ class FilterByTimeExtentViewController: UIViewController {
         }
     }
     
-    /// The time slider from the ArcGIS toolkit.
-    let timeSlider: TimeSlider = {
-        let timeSlider = TimeSlider()
-        timeSlider.playbackInterval = 0.5
-        return timeSlider
-    }()
-    
+   
     func makeMap() -> AGSMap {
         let featureLayer = AGSFeatureLayer(
             item: AGSPortalItem(
@@ -62,40 +55,18 @@ class FilterByTimeExtentViewController: UIViewController {
                 endTime: formatter.date(from: "2005/10/31 05:00")!
             )
         }()
-        featureLayer.load { [weak self] error in
-            guard error == nil, let fullTimeExtent = featureLayer.fullTimeExtent else { return }
-            self?.timeSlider.initializeTimeSteps(timeStepCount: 60, fullExtent: fullTimeExtent) { _ in
-                // Set the current time extent.
-                self?.timeSlider.currentExtent = currentTimeExtent
-            }
-        }
+        
     }
 
     /// Configure the time slider's attributes and position.
     func setupTimeSlider() {
         // Configure time slider.
-        timeSlider.labelMode = .thumbs
-        timeSlider.addTarget(self, action: #selector(timeSliderValueChanged(timeSlider:)), for: .valueChanged)
-        // Add the time slider to the view.
-        view.addSubview(timeSlider)
-        
-        // Add constraints to position the slider.
-        timeSlider.translatesAutoresizingMaskIntoConstraints = false
-        // Assign the constraints.
-        let constraints = [
-            timeSlider.leadingAnchor.constraint(equalToSystemSpacingAfter: view.safeAreaLayoutGuide.leadingAnchor, multiplier: 1),
-            view.safeAreaLayoutGuide.trailingAnchor.constraint(equalToSystemSpacingAfter: timeSlider.trailingAnchor, multiplier: 1),
-            mapView.attributionTopAnchor.constraint(equalToSystemSpacingBelow: timeSlider.bottomAnchor, multiplier: 1)
-        ]
-        // Activate the constraints.
-        NSLayoutConstraint.activate(constraints)
+   
     }
     
     @objc
-    func timeSliderValueChanged(timeSlider: TimeSlider) {
-        if mapView.timeExtent != timeSlider.currentExtent {
-            mapView.timeExtent = timeSlider.currentExtent
-        }
+    func timeSliderValueChanged(timeSlider: NSObject) {
+      
     }
     
     // MARK: UIViewController

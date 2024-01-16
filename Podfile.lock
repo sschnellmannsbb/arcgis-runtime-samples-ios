@@ -1,0 +1,16 @@
+PODS:
+  - ArcGIS-Runtime-SDK-iOS (100.15.2)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-SDK-iOS (= 100.15.2)
+
+SPEC REPOS:
+  trunk:
+    - ArcGIS-Runtime-SDK-iOS
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-iOS: 6e0e83008827ab1ab8c926aee5f76d05579da53b
+
+PODFILE CHECKSUM: db50a887caa8a753870a0028ac915f7e3ad0fda4
+
+COCOAPODS: 1.14.3

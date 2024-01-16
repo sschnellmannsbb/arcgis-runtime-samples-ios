@@ -19,13 +19,6 @@
 		00166C9224D3838200DD317E /* BufferListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00166C9124D3838200DD317E /* BufferListViewController.swift */; };
 		00166C9424D3838D00DD317E /* BufferList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00166C9324D3838D00DD317E /* BufferList.storyboard */; };
 		00166C9724D465B900DD317E /* BufferListViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00166C9124D3838200DD317E /* BufferListViewController.swift */; };
-		001D341D251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D341C251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift */; };
-		001D342F251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D342E251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift */; };
-		001D3437251D407600F9EEBE /* ViewHiddenInfrastructureARPipePlacingViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00255DD125156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift */; };
-		001D3438251D407600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 001D342E251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift */; };
-		001D3439251D407600F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 001D341C251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift */; };
-		001ECB042486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001ECB032486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift */; };
-		001ECB062486DDF3009AC6C0 /* NavigateARCalibrationViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 001ECB032486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift */; };
 		001ECB5E248B002B009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001ECB59248B002B009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift */; };
 		001ECB60248B002B009AC6C0 /* FeatureCollectionLayerFromPortal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001ECB5B248B002B009AC6C0 /* FeatureCollectionLayerFromPortal.storyboard */; };
 		001ECB63248B0093009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 001ECB59248B002B009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift */; };
@@ -37,8 +30,6 @@
 		0023F98225E717AC006B574E /* DisplayDeviceLocationWithNMEADataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023F97C25E717AC006B574E /* DisplayDeviceLocationWithNMEADataSourcesViewController.swift */; };
 		0023F98825E717EA006B574E /* SimulatedNMEADataSource.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0023F97A25E717AC006B574E /* SimulatedNMEADataSource.swift */; };
 		0023F98925E717EA006B574E /* DisplayDeviceLocationWithNMEADataSourcesViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0023F97C25E717AC006B574E /* DisplayDeviceLocationWithNMEADataSourcesViewController.swift */; };
-		00255DD025156C24001A71DF /* ViewHiddenInfrastructureAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00255DCF25156C24001A71DF /* ViewHiddenInfrastructureAR.storyboard */; };
-		00255DD225156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00255DD125156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift */; };
 		003267B4265C478600DB4CB5 /* BrowseOGCAPIFeatureService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003267B3265C478600DB4CB5 /* BrowseOGCAPIFeatureService.storyboard */; };
 		003267B6265C479200DB4CB5 /* BrowseOGCAPIFeatureServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003267B5265C479200DB4CB5 /* BrowseOGCAPIFeatureServiceViewController.swift */; };
 		0036B33E27BC64D1005C0958 /* ShowDeviceLocationUsingIndoorPositioningViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00132102279B705700E89DD4 /* ShowDeviceLocationUsingIndoorPositioningViewController.swift */; };
@@ -58,12 +49,8 @@
 		005C713A26C32ED10003BDC3 /* DisplayMapSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005C713926C32ED10003BDC3 /* DisplayMapSwiftUIView.swift */; };
 		005C713C26C331470003BDC3 /* DisplayMapSwiftUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005C713B26C331470003BDC3 /* DisplayMapSwiftUI.storyboard */; };
 		005C713E26C331B90003BDC3 /* DisplayMapSwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005C713D26C331B90003BDC3 /* DisplayMapSwiftUIViewController.swift */; };
-		00686FD02480889900EDA705 /* NavigateARNavigatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00686FCF2480889900EDA705 /* NavigateARNavigatorViewController.swift */; };
-		00686FD52481CF4D00EDA705 /* NavigateARRoutePlannerViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00C024E42475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift */; };
-		00686FD62481CF4D00EDA705 /* NavigateARNavigatorViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00686FCF2480889900EDA705 /* NavigateARNavigatorViewController.swift */; };
 		0069F4BE25F0111D00CA7BD2 /* CreateLoadReport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0069F4BD25F0111D00CA7BD2 /* CreateLoadReport.storyboard */; };
 		0069F4C225F0118200CA7BD2 /* CreateLoadReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069F4C125F0118200CA7BD2 /* CreateLoadReportViewController.swift */; };
-		006A786A262F9F15001D2A5E /* ArcGISToolkit in Frameworks */ = {isa = PBXBuildFile; productRef = 006A7869262F9F15001D2A5E /* ArcGISToolkit */; };
 		0075032E26B3675B00022C7B /* OrbitCameraAroundObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075032D26B3675B00022C7B /* OrbitCameraAroundObjectViewController.swift */; };
 		0075033026B3676400022C7B /* OrbitCameraAroundObject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0075032F26B3676400022C7B /* OrbitCameraAroundObject.storyboard */; };
 		0075033226B3683900022C7B /* OrbitCameraSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0075033126B3683900022C7B /* OrbitCameraSettingsViewController.swift */; };
@@ -106,8 +93,6 @@
 		00BE7B3E2764274C0012CE95 /* BrowseBuildingFloors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BE7B3D2764274C0012CE95 /* BrowseBuildingFloors.storyboard */; };
 		00BE7B402764275D0012CE95 /* BrowseBuildingFloorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE7B3F2764275D0012CE95 /* BrowseBuildingFloorsViewController.swift */; };
 		00BE7B4127642A6C0012CE95 /* BrowseBuildingFloorsViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00BE7B3F2764275D0012CE95 /* BrowseBuildingFloorsViewController.swift */; };
-		00C024E52475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C024E42475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift */; };
-		00C024E72475E54A00E1DA8D /* NavigateAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C024E62475E54A00E1DA8D /* NavigateAR.storyboard */; };
 		00C94676244509B8000B6C6D /* DisplayLocationSettingsViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7237D0D2190F07500A72C76 /* DisplayLocationSettingsViewController.swift */; };
 		00CDA5C126F1289B00DEE7F4 /* SelectENCFeatures.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CDA5BE26F1289B00DEE7F4 /* SelectENCFeatures.storyboard */; };
 		00CDA5C226F1289B00DEE7F4 /* SelectENCFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDA5BF26F1289B00DEE7F4 /* SelectENCFeaturesViewController.swift */; };
@@ -687,6 +672,7 @@
 		4CF6DF1B22F2058300A3092A /* HonorMobileMapPackageExpirationDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6DF1A22F2058300A3092A /* HonorMobileMapPackageExpirationDateViewController.swift */; };
 		4CF6DF1F22F2094F00A3092A /* LothianRiversAnno.mmpk in Resources */ = {isa = PBXBuildFile; fileRef = 4CF6DF1E22F2094F00A3092A /* LothianRiversAnno.mmpk */; settings = {ASSET_TAGS = (LothianRiversAnnoMMPK, ); }; };
 		4CF6DF2022F2338D00A3092A /* HonorMobileMapPackageExpirationDateViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CF6DF1A22F2058300A3092A /* HonorMobileMapPackageExpirationDateViewController.swift */; };
+		7130A6FBEE89A0CA6505F212 /* Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F212831DD545C0CDC881B68 /* Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework */; };
 		940A73F420E588C200A06C80 /* CutGeometry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940A73F320E588C200A06C80 /* CutGeometry.storyboard */; };
 		940A73F620E589AB00A06C80 /* CutGeometryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A73F520E589AB00A06C80 /* CutGeometryViewController.swift */; };
 		940A73F720E6BF3F00A06C80 /* CutGeometryViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 940A73F520E589AB00A06C80 /* CutGeometryViewController.swift */; };
@@ -798,16 +784,7 @@
 		E45991A51EF31DE40089E9FD /* SearchForWebmapByKeywordViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E459919C1EF3021D0089E9FD /* SearchForWebmapByKeywordViewController.swift */; };
 		E45991A61EF31DE40089E9FD /* WebMapCell.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E459919D1EF3021D0089E9FD /* WebMapCell.swift */; };
 		E45991A81EF31DE40089E9FD /* WebMapViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E459919F1EF3021D0089E9FD /* WebMapViewController.swift */; };
-		E463241B23454A2600AE91C3 /* CollectDataAR.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E47ED0A32343C4FE0032440E /* CollectDataAR.swift */; };
-		E463241C23454A2600AE91C3 /* DisplayScenesInTabletopAR.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E47ED0B02343C87E0032440E /* DisplayScenesInTabletopAR.swift */; };
-		E463241D23454A2600AE91C3 /* ExploreScenesInFlyoverAR.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E47ED09F2343C4FE0032440E /* ExploreScenesInFlyoverAR.swift */; };
 		E476AB0120F69FCA00BCE59F /* ListTransformationsViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4477CBD20EC0CCD004E14F9 /* ListTransformationsViewController.swift */; };
-		E47ED0A62343C4FE0032440E /* ExploreScenesInFlyoverAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47ED09F2343C4FE0032440E /* ExploreScenesInFlyoverAR.swift */; };
-		E47ED0A72343C4FE0032440E /* ExploreScenesInFlyoverAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47ED0A02343C4FE0032440E /* ExploreScenesInFlyoverAR.storyboard */; };
-		E47ED0A82343C4FE0032440E /* CollectDataAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47ED0A22343C4FE0032440E /* CollectDataAR.storyboard */; };
-		E47ED0B12343C87E0032440E /* DisplayScenesInTabletopAR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47ED0AF2343C87E0032440E /* DisplayScenesInTabletopAR.storyboard */; };
-		E47ED0B22343C87E0032440E /* DisplayScenesInTabletopAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47ED0B02343C87E0032440E /* DisplayScenesInTabletopAR.swift */; };
-		E47ED0B42343EC670032440E /* CollectDataAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47ED0A32343C4FE0032440E /* CollectDataAR.swift */; };
 		E4A0BD8B1EE9E5D300CDE436 /* DistanceCompositeSymbolViewController.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = E4C4A44A1EE9DDDD0073B6C0 /* DistanceCompositeSymbolViewController.swift */; };
 		E4B2E2651FE31E5200E610FF /* bradle.3ds in Resources */ = {isa = PBXBuildFile; fileRef = E4B2E2631FE31E5100E610FF /* bradle.3ds */; settings = {ASSET_TAGS = (Bradley3DModel, ); }; };
 		E4B2E2661FE31E5200E610FF /* tank1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B2E2641FE31E5100E610FF /* tank1.jpg */; settings = {ASSET_TAGS = (Bradley3DModel, ); }; };
@@ -1016,9 +993,6 @@
 				F1E8F0B32537D704000B9A0F /* NavigateRouteWithReroutingViewController.swift in CopyFiles */,
 				00166C9724D465B900DD317E /* BufferListViewController.swift in CopyFiles */,
 				003D25712513FC61007527C2 /* AddENCExchangeSetViewController.swift in CopyFiles */,
-				001D3437251D407600F9EEBE /* ViewHiddenInfrastructureARPipePlacingViewController.swift in CopyFiles */,
-				001D3438251D407600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift in CopyFiles */,
-				001D3439251D407600F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift in CopyFiles */,
 				F16922B7251590E200A8F36E /* EditKMLGroundOverlayViewController.swift in CopyFiles */,
 				00F953C724E34CCC00D16555 /* ApplyMosaicRuleToRastersViewController.swift in CopyFiles */,
 				003D25652513DF58007527C2 /* ApplyRasterRenderingRuleViewController.swift in CopyFiles */,
@@ -1028,9 +1002,6 @@
 				F17961A124DA3A27006FE7C1 /* EditFeaturesWithFeatureLinkedAnnotationViewController.swift in CopyFiles */,
 				00166C8C24D236A300DD317E /* RealisticLightingAndShadowsViewController.swift in CopyFiles */,
 				F1F651AD24995294006DF277 /* ShowPopupViewController.swift in CopyFiles */,
-				001ECB062486DDF3009AC6C0 /* NavigateARCalibrationViewController.swift in CopyFiles */,
-				00686FD52481CF4D00EDA705 /* NavigateARRoutePlannerViewController.swift in CopyFiles */,
-				00686FD62481CF4D00EDA705 /* NavigateARNavigatorViewController.swift in CopyFiles */,
 				001ECB63248B0093009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift in CopyFiles */,
 				00ADC3C42464D64F00A3B88D /* AnimateImagesWithImageOverlayViewController.swift in CopyFiles */,
 				00ADC3D22464DDA200A3B88D /* IdentifyRasterCellViewController.swift in CopyFiles */,
@@ -1271,9 +1242,6 @@
 				9DF04DC52304C81D0014C1EE /* DownloadPreplannedMapViewController.swift in CopyFiles */,
 				9DA3CD8D23060835007CB1F3 /* MapSelectionTableViewController.swift in CopyFiles */,
 				9DE83D59230B14E5000CB37A /* PreplannedMapAreaTableViewCell.swift in CopyFiles */,
-				E463241B23454A2600AE91C3 /* CollectDataAR.swift in CopyFiles */,
-				E463241C23454A2600AE91C3 /* DisplayScenesInTabletopAR.swift in CopyFiles */,
-				E463241D23454A2600AE91C3 /* ExploreScenesInFlyoverAR.swift in CopyFiles */,
 				4C59D133238DD09B00824924 /* ApplyScheduledUpdatesToPreplannedMapAreaViewController.swift in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1289,9 +1257,6 @@
 		00166C8924D20E6E00DD317E /* RealisticLightingAndShadows.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RealisticLightingAndShadows.storyboard; sourceTree = "<group>"; };
 		00166C9124D3838200DD317E /* BufferListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferListViewController.swift; sourceTree = "<group>"; };
 		00166C9324D3838D00DD317E /* BufferList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BufferList.storyboard; sourceTree = "<group>"; };
-		001D341C251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHiddenInfrastructureARCalibrationViewController.swift; sourceTree = "<group>"; };
-		001D342E251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHiddenInfrastructureARExplorerViewController.swift; sourceTree = "<group>"; };
-		001ECB032486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateARCalibrationViewController.swift; sourceTree = "<group>"; };
 		001ECB59248B002B009AC6C0 /* FeatureCollectionLayerFromPortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCollectionLayerFromPortalViewController.swift; sourceTree = "<group>"; };
 		001ECB5B248B002B009AC6C0 /* FeatureCollectionLayerFromPortal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FeatureCollectionLayerFromPortal.storyboard; sourceTree = "<group>"; };
 		0022768F26570BA500CC7DB9 /* DisplayOGCAPICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOGCAPICollectionViewController.swift; sourceTree = "<group>"; };
@@ -1299,8 +1264,6 @@
 		0023F97A25E717AC006B574E /* SimulatedNMEADataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatedNMEADataSource.swift; sourceTree = "<group>"; };
 		0023F97B25E717AC006B574E /* DisplayDeviceLocationWithNMEADataSources.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DisplayDeviceLocationWithNMEADataSources.storyboard; sourceTree = "<group>"; };
 		0023F97C25E717AC006B574E /* DisplayDeviceLocationWithNMEADataSourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDeviceLocationWithNMEADataSourcesViewController.swift; sourceTree = "<group>"; };
-		00255DCF25156C24001A71DF /* ViewHiddenInfrastructureAR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewHiddenInfrastructureAR.storyboard; sourceTree = "<group>"; };
-		00255DD125156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHiddenInfrastructureARPipePlacingViewController.swift; sourceTree = "<group>"; };
 		003267B3265C478600DB4CB5 /* BrowseOGCAPIFeatureService.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BrowseOGCAPIFeatureService.storyboard; sourceTree = "<group>"; };
 		003267B5265C479200DB4CB5 /* BrowseOGCAPIFeatureServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseOGCAPIFeatureServiceViewController.swift; sourceTree = "<group>"; };
 		003BC30E24E5E44E00F65746 /* ConfigureSubnetworkTraceOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSubnetworkTraceOptionsViewController.swift; sourceTree = "<group>"; };
@@ -1316,7 +1279,6 @@
 		005C713926C32ED10003BDC3 /* DisplayMapSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMapSwiftUIView.swift; sourceTree = "<group>"; };
 		005C713B26C331470003BDC3 /* DisplayMapSwiftUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DisplayMapSwiftUI.storyboard; sourceTree = "<group>"; };
 		005C713D26C331B90003BDC3 /* DisplayMapSwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMapSwiftUIViewController.swift; sourceTree = "<group>"; };
-		00686FCF2480889900EDA705 /* NavigateARNavigatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateARNavigatorViewController.swift; sourceTree = "<group>"; };
 		0069F4BD25F0111D00CA7BD2 /* CreateLoadReport.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateLoadReport.storyboard; sourceTree = "<group>"; };
 		0069F4C125F0118200CA7BD2 /* CreateLoadReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLoadReportViewController.swift; sourceTree = "<group>"; };
 		0075032D26B3675B00022C7B /* OrbitCameraAroundObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitCameraAroundObjectViewController.swift; sourceTree = "<group>"; };
@@ -1348,8 +1310,6 @@
 		00BA068325311B0D0039EF4D /* hydrography */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hydrography; sourceTree = "<group>"; };
 		00BE7B3D2764274C0012CE95 /* BrowseBuildingFloors.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BrowseBuildingFloors.storyboard; sourceTree = "<group>"; };
 		00BE7B3F2764275D0012CE95 /* BrowseBuildingFloorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseBuildingFloorsViewController.swift; sourceTree = "<group>"; };
-		00C024E42475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateARRoutePlannerViewController.swift; sourceTree = "<group>"; };
-		00C024E62475E54A00E1DA8D /* NavigateAR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NavigateAR.storyboard; sourceTree = "<group>"; };
 		00CDA5BE26F1289B00DEE7F4 /* SelectENCFeatures.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectENCFeatures.storyboard; sourceTree = "<group>"; };
 		00CDA5BF26F1289B00DEE7F4 /* SelectENCFeaturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectENCFeaturesViewController.swift; sourceTree = "<group>"; };
 		00D4E8D9241AA18E002689DB /* ConvexHull.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConvexHull.storyboard; sourceTree = "<group>"; };
@@ -1422,6 +1382,7 @@
 		21E9CDE91EF9C5EA00BD4D7D /* DisplayGridSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayGridSettingsViewController.swift; sourceTree = "<group>"; };
 		21E9CDEA1EF9C5EA00BD4D7D /* DisplayGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayGridViewController.swift; sourceTree = "<group>"; };
 		21EBBBFC1FE07B0500567F14 /* StatisticalQueryGroupAndSort.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StatisticalQueryGroupAndSort.storyboard; sourceTree = "<group>"; };
+		2F212831DD545C0CDC881B68 /* Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0225361DB569240049F7F8 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		3E03F0921B0561FA0078EB36 /* SourceCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceCodeViewController.swift; sourceTree = "<group>"; };
 		3E03F0981B056F9C0078EB36 /* highlight.pack.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.pack.js; sourceTree = "<group>"; };
@@ -1824,12 +1785,6 @@
 		E459919C1EF3021D0089E9FD /* SearchForWebmapByKeywordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForWebmapByKeywordViewController.swift; sourceTree = "<group>"; };
 		E459919D1EF3021D0089E9FD /* WebMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebMapCell.swift; sourceTree = "<group>"; };
 		E459919F1EF3021D0089E9FD /* WebMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebMapViewController.swift; sourceTree = "<group>"; };
-		E47ED09F2343C4FE0032440E /* ExploreScenesInFlyoverAR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreScenesInFlyoverAR.swift; sourceTree = "<group>"; };
-		E47ED0A02343C4FE0032440E /* ExploreScenesInFlyoverAR.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExploreScenesInFlyoverAR.storyboard; sourceTree = "<group>"; };
-		E47ED0A22343C4FE0032440E /* CollectDataAR.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectDataAR.storyboard; sourceTree = "<group>"; };
-		E47ED0A32343C4FE0032440E /* CollectDataAR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectDataAR.swift; sourceTree = "<group>"; };
-		E47ED0AF2343C87E0032440E /* DisplayScenesInTabletopAR.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DisplayScenesInTabletopAR.storyboard; sourceTree = "<group>"; };
-		E47ED0B02343C87E0032440E /* DisplayScenesInTabletopAR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayScenesInTabletopAR.swift; sourceTree = "<group>"; };
 		E4B2E2631FE31E5100E610FF /* bradle.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; path = bradle.3ds; sourceTree = "<group>"; };
 		E4B2E2641FE31E5100E610FF /* tank1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tank1.jpg; sourceTree = "<group>"; };
 		E4B2E2681FE31ED500E610FF /* ViewshedGeoElementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewshedGeoElementViewController.swift; sourceTree = "<group>"; };
@@ -1863,6 +1818,7 @@
 		F14A8F002474AD9D00242D96 /* ConfigureSubnetworkTrace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfigureSubnetworkTrace.storyboard; sourceTree = "<group>"; };
 		F1510FD2254A18E200C29150 /* dodge_city.vtpk */ = {isa = PBXFileReference; lastKnownFileType = file; path = dodge_city.vtpk; sourceTree = "<group>"; };
 		F151AB8B22D7B0CA00055E45 /* MontereyElevation.dt2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MontereyElevation.dt2; sourceTree = "<group>"; };
+		F152328E8BDBCE9431774FA3 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.debug.xcconfig"; path = "Target Support Files/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.debug.xcconfig"; sourceTree = "<group>"; };
 		F15694D0265DBE96007AEB61 /* SanDiego_StreetAddress.loz */ = {isa = PBXFileReference; lastKnownFileType = file; path = SanDiego_StreetAddress.loz; sourceTree = "<group>"; };
 		F15694D1265DBE96007AEB61 /* SanDiego_StreetAddress.loc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SanDiego_StreetAddress.loc; sourceTree = "<group>"; };
 		F1576688281C97A900C08069 /* DisplayRouteLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRouteLayerViewController.swift; sourceTree = "<group>"; };
@@ -1919,6 +1875,7 @@
 		F4159C6A209257B50016E53D /* FeatureLayerRenderingModeMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FeatureLayerRenderingModeMap.storyboard; sourceTree = "<group>"; };
 		F4159C6E20925AAE0016E53D /* OpenScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OpenScene.storyboard; sourceTree = "<group>"; };
 		F4159C7020925B710016E53D /* OpenSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSceneViewController.swift; sourceTree = "<group>"; };
+		F42ECB6109BB7CB00B0FABE8 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.release.xcconfig"; path = "Target Support Files/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.release.xcconfig"; sourceTree = "<group>"; };
 		F4E5CD7C20704AAA000A6D35 /* FeatureLayerRenderingModeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureLayerRenderingModeMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1927,7 +1884,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006A786A262F9F15001D2A5E /* ArcGISToolkit in Frameworks */,
+				7130A6FBEE89A0CA6505F212 /* Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2003,17 +1960,6 @@
 				0023F97A25E717AC006B574E /* SimulatedNMEADataSource.swift */,
 			);
 			path = "Display device location with NMEA data sources";
-			sourceTree = "<group>";
-		};
-		00255DCB25156C17001A71DF /* View hidden infrastructure in AR */ = {
-			isa = PBXGroup;
-			children = (
-				00255DCF25156C24001A71DF /* ViewHiddenInfrastructureAR.storyboard */,
-				00255DD125156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift */,
-				001D342E251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift */,
-				001D341C251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift */,
-			);
-			path = "View hidden infrastructure in AR";
 			sourceTree = "<group>";
 		};
 		003267B0265C476A00DB4CB5 /* Browse OGC API feature service */ = {
@@ -2153,17 +2099,6 @@
 				00BE7B3F2764275D0012CE95 /* BrowseBuildingFloorsViewController.swift */,
 			);
 			path = "Browse building floors";
-			sourceTree = "<group>";
-		};
-		00C024DE2475E49A00E1DA8D /* Navigate in AR */ = {
-			isa = PBXGroup;
-			children = (
-				00C024E62475E54A00E1DA8D /* NavigateAR.storyboard */,
-				00C024E42475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift */,
-				00686FCF2480889900EDA705 /* NavigateARNavigatorViewController.swift */,
-				001ECB032486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift */,
-			);
-			path = "Navigate in AR";
 			sourceTree = "<group>";
 		};
 		00C6D328246CA8FC00C63EAF /* Archives */ = {
@@ -2460,6 +2395,14 @@
 			path = "Display grid";
 			sourceTree = "<group>";
 		};
+		2E11BAB134AE9E2F92CADC0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F212831DD545C0CDC881B68 /* Pods_Sample_Abstract_ArcGIS_Runtime_SDK_Samples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E03F0971B056F9C0078EB36 /* Js */ = {
 			isa = PBXGroup;
 			children = (
@@ -2559,6 +2502,8 @@
 				4CB506D3224C2DBC006A3471 /* Portal Data */,
 				4CB506D2224C2DA5006A3471 /* Scripts */,
 				3E23A9E11AFC28F6002E2214 /* Products */,
+				7F73E2FC7ED1D5CB0EAA118E /* Pods */,
+				2E11BAB134AE9E2F92CADC0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2586,7 +2531,6 @@
 				3EEE1D671E4935FC003263FC /* Cloud and portal */,
 				3EEA06001D21C3E800E03774 /* Scenes */,
 				D98CC08F22E25D8200618682 /* Utility network */,
-				E47ED0882343C1400032440E /* Augmented reality */,
 				3E4B05E51B39EE920072E514 /* Shared resources */,
 				C7E86C8E21751CFE001C65C3 /* Extensions */,
 				3E23AA071AFC2DE0002E2214 /* Content Display Logic */,
@@ -4159,6 +4103,15 @@
 			path = "Mobile Map Packages";
 			sourceTree = "<group>";
 		};
+		7F73E2FC7ED1D5CB0EAA118E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F152328E8BDBCE9431774FA3 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.debug.xcconfig */,
+				F42ECB6109BB7CB00B0FABE8 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		940A73F220E5889B00A06C80 /* Cut geometry */ = {
 			isa = PBXGroup;
 			children = (
@@ -4454,45 +4407,6 @@
 				E459919F1EF3021D0089E9FD /* WebMapViewController.swift */,
 			);
 			path = "Search for webmap by keyword";
-			sourceTree = "<group>";
-		};
-		E47ED0882343C1400032440E /* Augmented reality */ = {
-			isa = PBXGroup;
-			children = (
-				00255DCB25156C17001A71DF /* View hidden infrastructure in AR */,
-				00C024DE2475E49A00E1DA8D /* Navigate in AR */,
-				E47ED0A12343C4FE0032440E /* Collect data in AR */,
-				E47ED0AA2343C5E00032440E /* Display scenes in tabletop AR */,
-				E47ED09E2343C4FE0032440E /* Explore scenes in flyover AR */,
-			);
-			path = "Augmented reality";
-			sourceTree = "<group>";
-		};
-		E47ED09E2343C4FE0032440E /* Explore scenes in flyover AR */ = {
-			isa = PBXGroup;
-			children = (
-				E47ED09F2343C4FE0032440E /* ExploreScenesInFlyoverAR.swift */,
-				E47ED0A02343C4FE0032440E /* ExploreScenesInFlyoverAR.storyboard */,
-			);
-			path = "Explore scenes in flyover AR";
-			sourceTree = "<group>";
-		};
-		E47ED0A12343C4FE0032440E /* Collect data in AR */ = {
-			isa = PBXGroup;
-			children = (
-				E47ED0A32343C4FE0032440E /* CollectDataAR.swift */,
-				E47ED0A22343C4FE0032440E /* CollectDataAR.storyboard */,
-			);
-			path = "Collect data in AR";
-			sourceTree = "<group>";
-		};
-		E47ED0AA2343C5E00032440E /* Display scenes in tabletop AR */ = {
-			isa = PBXGroup;
-			children = (
-				E47ED0B02343C87E0032440E /* DisplayScenesInTabletopAR.swift */,
-				E47ED0AF2343C87E0032440E /* DisplayScenesInTabletopAR.storyboard */,
-			);
-			path = "Display scenes in tabletop AR";
 			sourceTree = "<group>";
 		};
 		E4B2E2621FE31E5100E610FF /* bradley_low_3ds */ = {
@@ -4833,6 +4747,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E23AA011AFC28F6002E2214 /* Build configuration list for PBXNativeTarget "ArcGIS Runtime SDK Samples" */;
 			buildPhases = (
+				C5CDAD5D8932E2511BBA8D68 /* [CP] Check Pods Manifest.lock */,
 				007E8EF32578290F003077CC /* Create .secrets file if it does not exist */,
 				3E23A9DC1AFC28F6002E2214 /* Sources */,
 				3E23A9DD1AFC28F6002E2214 /* Frameworks */,
@@ -4841,6 +4756,7 @@
 				3E03F0951B056DC40078EB36 /* CopyFiles */,
 				3ED029A21B8E5D4D00ACA70D /* ShellScript */,
 				4CBDB3192190E88F006E5D39 /* Lint Code */,
+				7433A10813B7453724399D15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 				007A424F256C747E0025F582 /* PBXBuildRule */,
@@ -4848,9 +4764,6 @@
 			dependencies = (
 			);
 			name = "ArcGIS Runtime SDK Samples";
-			packageProductDependencies = (
-				006A7869262F9F15001D2A5E /* ArcGISToolkit */,
-			);
 			productName = "arcgis-ios-sdk-samples";
 			productReference = 3E23A9E01AFC28F6002E2214 /* ArcGIS Runtime SDK Samples.app */;
 			productType = "com.apple.product-type.application";
@@ -4947,9 +4860,6 @@
 				Base,
 			);
 			mainGroup = 3E23A9D71AFC28F6002E2214;
-			packageReferences = (
-				006A7868262F9F15001D2A5E /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */,
-			);
 			productRefGroup = 3E23A9E11AFC28F6002E2214 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -5100,7 +5010,6 @@
 				00CDA5C126F1289B00DEE7F4 /* SelectENCFeatures.storyboard in Resources */,
 				3EC39C431C9B4872003F6459 /* OfflineEditing.storyboard in Resources */,
 				0023F98125E717AC006B574E /* DisplayDeviceLocationWithNMEADataSources.storyboard in Resources */,
-				00255DD025156C24001A71DF /* ViewHiddenInfrastructureAR.storyboard in Resources */,
 				00F953C524E34C3300D16555 /* ApplyMosaicRuleToRasters.storyboard in Resources */,
 				3ED028951B8E3A8500ACA70D /* SetMapsSpatialReference.storyboard in Resources */,
 				3EEA060D1D21C44000E03774 /* SceneSymbols.storyboard in Resources */,
@@ -5116,7 +5025,6 @@
 				3EABC7B41DB181DD00C161C6 /* ShastaBW.tfw in Resources */,
 				4C0FD7CB226528740042DE31 /* ReadSymbolsFromMobileStyle.storyboard in Resources */,
 				F1034FA622D3F5DB00B021DA /* CreateTerrainSurfaceFromLocalTilePackage.storyboard in Resources */,
-				00C024E72475E54A00E1DA8D /* NavigateAR.storyboard in Resources */,
 				4C59D132238DCFB500824924 /* ApplyScheduledUpdatesToPreplannedMapArea.storyboard in Resources */,
 				C7D0EEDB215EA60800ECDD2C /* DisplayKMLNetworkLinks.storyboard in Resources */,
 				F15694D3265DBE96007AEB61 /* SanDiego_StreetAddress.loc in Resources */,
@@ -5162,7 +5070,6 @@
 				F1F62C4022E64FFF00EFD599 /* FeatureLayerDictionaryRenderer.storyboard in Resources */,
 				3EABC78F1DB1772000C161C6 /* RGBRenderer.storyboard in Resources */,
 				D9EE379820E2CC7700BF8AD1 /* tire_tread.jpeg in Resources */,
-				E47ED0B12343C87E0032440E /* DisplayScenesInTabletopAR.storyboard in Resources */,
 				3ED029281B8E3AB300ACA70D /* AddGraphicsWithRenderer.storyboard in Resources */,
 				00132101279B704200E89DD4 /* ShowDeviceLocationUsingIndoorPositioning.storyboard in Resources */,
 				12D66033226697320005DE8A /* GroupLayersSectionView.xib in Resources */,
@@ -5210,7 +5117,6 @@
 				3EFDE0F71E36ABB700CBCD92 /* FeatureCollectionLayerQuery.storyboard in Resources */,
 				3E81C1BD1D8A189D00470AA4 /* VectorTileCustomStyle.storyboard in Resources */,
 				3E62940B1EAFAF4100084105 /* WebTiledLayer.storyboard in Resources */,
-				E47ED0A72343C4FE0032440E /* ExploreScenesInFlyoverAR.storyboard in Resources */,
 				97DD84671B2B869300184B41 /* xcode.css in Resources */,
 				3ED0289C1B8E3A8500ACA70D /* MapViewScreenshot.storyboard in Resources */,
 				4C1A7C1F21D3FB7800E16E94 /* GraphicsOverlayDictionaryRenderer3D.storyboard in Resources */,
@@ -5241,7 +5147,6 @@
 				3EC39C341C9B106D003F6459 /* ExportTiles.storyboard in Resources */,
 				4CECF89F21D57F0A00A56161 /* SetMinMaxScale.storyboard in Resources */,
 				3EABC7AE1DB17B2C00C161C6 /* Shasta.tfw in Resources */,
-				E47ED0A82343C4FE0032440E /* CollectDataAR.storyboard in Resources */,
 				4C66AAF72107C4F400EE6346 /* QueryMapImageSublayer.storyboard in Resources */,
 				4CC00F7620C1FAE5004244EF /* StyleWebMapServiceLayer.storyboard in Resources */,
 				00E5B7D42458FE8900B11973 /* PerformValveIsolationTrace.storyboard in Resources */,
@@ -5358,6 +5263,45 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		7433A10813B7453724399D15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CDAD5D8932E2511BBA8D68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sample_Abstract-ArcGIS Runtime SDK Samples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -5376,7 +5320,6 @@
 				3EC39C411C9B4857003F6459 /* FeatureLayersViewController.swift in Sources */,
 				C7094786215D36BA00BA0969 /* OfflineMapParameterOverridesViewController.swift in Sources */,
 				4C0FD7CD226528A20042DE31 /* ReadSymbolsFromMobileStyleViewController.swift in Sources */,
-				00C024E52475E4AB00E1DA8D /* NavigateARRoutePlannerViewController.swift in Sources */,
 				3E0225371DB569240049F7F8 /* CategoryCell.swift in Sources */,
 				E4B2E2691FE31ED500E610FF /* ViewshedGeoElementViewController.swift in Sources */,
 				12D66038226697320005DE8A /* LayersTableViewController.swift in Sources */,
@@ -5416,7 +5359,6 @@
 				C7D0EEDA215EA60800ECDD2C /* DisplayKMLNetworkLinksViewController.swift in Sources */,
 				003BC31224E5E53200F65746 /* ConfigureSubnetworkTraceViewController.swift in Sources */,
 				3EEA06101D21C44000E03774 /* DisplaySceneViewController.swift in Sources */,
-				001D342F251BF94600F9EEBE /* ViewHiddenInfrastructureARExplorerViewController.swift in Sources */,
 				F1710AF025EECFDD00900FF2 /* DisplayContentUtilityNetworkContainerViewController.swift in Sources */,
 				4C0FD7CF22652E3B0042DE31 /* ReadSymbolsFromMobileStyleSymbolViewController.swift in Sources */,
 				10859BAC1FE0AAE400F6E552 /* FeatureLayerExtrusionViewController.swift in Sources */,
@@ -5490,7 +5432,6 @@
 				3ED028B01B8E3A9800ACA70D /* MILUsingURLViewController.swift in Sources */,
 				3EBA25741D3450F600AB0703 /* CreateGeometriesViewController.swift in Sources */,
 				4C478E5022402891009F8CDF /* MapReferenceScaleLayerSelectionViewController.swift in Sources */,
-				001D341D251AA8D900F9EEBE /* ViewHiddenInfrastructureARCalibrationViewController.swift in Sources */,
 				3EABC7A41DB1793000C161C6 /* StretchRendererViewController.swift in Sources */,
 				09607F821FDB616100FA43B6 /* TimeBasedQueryViewController.swift in Sources */,
 				3ED0286D1B8E3A8500ACA70D /* DisplayLocationViewController.swift in Sources */,
@@ -5576,7 +5517,6 @@
 				C7AF466021B1C8AC0050CC49 /* ChangeAtmosphereEffectViewController.swift in Sources */,
 				3ED028891B8E3A8500ACA70D /* OpenMapURLViewController.swift in Sources */,
 				F17BDD1228626E30002E975C /* QueryFeaturesArcadeExpressionViewController.swift in Sources */,
-				00686FD02480889900EDA705 /* NavigateARNavigatorViewController.swift in Sources */,
 				3EFDE0F61E36ABB700CBCD92 /* FeatureCollectionLayerViewController.swift in Sources */,
 				000FFFB626CB044700E3CE7E /* SetUpLocationDrivenGeotriggersViewController.swift in Sources */,
 				3E4BF4421C5AE98300D85919 /* FindAddressViewController.swift in Sources */,
@@ -5613,8 +5553,6 @@
 				3EEA06141D21C44000E03774 /* SurfacePlacementsViewController.swift in Sources */,
 				C7E5EB7021ADA2DF004D48F7 /* FormatCoordinatesTableViewController.swift in Sources */,
 				F4159C7120925B710016E53D /* OpenSceneViewController.swift in Sources */,
-				001ECB042486DD8B009AC6C0 /* NavigateARCalibrationViewController.swift in Sources */,
-				00255DD225156C2F001A71DF /* ViewHiddenInfrastructureARPipePlacingViewController.swift in Sources */,
 				00132103279B705700E89DD4 /* ShowDeviceLocationUsingIndoorPositioningViewController.swift in Sources */,
 				00E5B7D22458FE7900B11973 /* PerformValveIsolationTraceViewController.swift in Sources */,
 				3EAF09451D7108DC00F8538F /* ChangeMapViewBackgroundViewController.swift in Sources */,
@@ -5684,9 +5622,6 @@
 				4C1EF29D220FEBAB00F73EAE /* IntegratedWindowsAuthenticationSearchTableViewCell.swift in Sources */,
 				F1E8F0AE2537D6C4000B9A0F /* NavigateRouteWithReroutingViewController.swift in Sources */,
 				3ED5EB751B740A58009F9B75 /* SegmentedViewController.swift in Sources */,
-				E47ED0B42343EC670032440E /* CollectDataAR.swift in Sources */,
-				E47ED0B22343C87E0032440E /* DisplayScenesInTabletopAR.swift in Sources */,
-				E47ED0A62343C4FE0032440E /* ExploreScenesInFlyoverAR.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5825,6 +5760,7 @@
 		};
 		3E23AA021AFC28F6002E2214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F152328E8BDBCE9431774FA3 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -5852,6 +5788,7 @@
 		};
 		3E23AA031AFC28F6002E2214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42ECB6109BB7CB00B0FABE8 /* Pods-Sample_Abstract-ArcGIS Runtime SDK Samples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSET_PACK_MANIFEST_URL_PREFIX = "";
@@ -5968,25 +5905,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		006A7868262F9F15001D2A5E /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Esri/arcgis-runtime-toolkit-ios";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 100.15.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		006A7869262F9F15001D2A5E /* ArcGISToolkit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 006A7868262F9F15001D2A5E /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */;
-			productName = ArcGISToolkit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3E23A9D81AFC28F6002E2214 /* Project object */;
 }
